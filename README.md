@@ -26,6 +26,7 @@ Les modules sont des scripts préécrits qui peuvent être utilisés pour exécu
 ```yaml
 # Code Ansible
 - ansible all -m apt -a "name=nginx state=present"
+```yaml
 
 **Configuration de serveurs** : Vous pouvez utiliser des modules tels que lineinfile ou template pour configurer des fichiers de configuration sur les serveurs distants. Par exemple, pour configurer Nginx pour désactiver les en-têtes de serveur sur tous les serveurs, vous pouvez utiliser la commande suivante :
 ```yaml
